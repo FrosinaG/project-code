@@ -11,64 +11,70 @@
   <body>
     <header>
       <nav>
-        <div class="navbar">
-          <div class="leftbox">
-            <img src="images/logo.png" class="logo" />
-            <span class="title">Visual Studo code</span>
-          </div>
-          <div class="centerbox">
-            <ul>
-              <li>Doc</li>
-              <li>Updates</li>
-              <li>Blog</li>
-              <li>API</li>
-              <li>Extensions</li>
-              <li>FQA</li>
-              <li>Learn</li>
-            </ul>
-          </div>
-          <div class="rightbox">
-            <form>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-search"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                />
-              </svg>
-              <input
-                type="search"
-                name="search"
-                value="Search Docs"
-                class="search"
-              />
-
-              <button class="downoad-button">
+        <div class="fix">
+          <div class="navbar">
+          
+            <div class="leftbox">
+              <img src="images/logo.png" class="logo" />
+              <span class="title">Visual Studo code</span>
+            </div>
+            <div class="centerbox">
+              <ul>
+                <li>Doc</li>
+                <li>Updates</li>
+                <li>Blog</li>
+                <li>API</li>
+                <li>Extensions</li>
+                <li>FQA</li>
+                <li>Learn</li>
+              </ul>
+            </div>
+            <div class="rightbox">
+              <form>
                 <svg
+                  id="searchicon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-download"
+                  class="bi bi-search"
                   viewBox="0 0 16 16"
                 >
                   <path
-                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"
-                  />
-                  <path
-                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
                   />
                 </svg>
-                Downoad
-              </button>
-            </form>
+                <input
+                  id="search"
+                  type="search"
+                  name="search"
+                  value="Search Docs"
+                  class="search"
+                />
+
+                <button class="downoad-button">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-download"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"
+                    />
+                    <path
+                      d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
+                    />
+                  </svg>
+                  Downoad
+                </button>
+              </form>
+            </div>
           </div>
         </div>
+
         <div class="first">
           <p>
             <a href=" Version 1.64">Version 1.64</a> is now available! Read
@@ -261,57 +267,163 @@
     <section id="container5">
       <div class="container5">
         <h2>VS Code for</h2>
-        <table>
-          <tr>
-            <td>JavaScript</td>
-            <td>Python</td>
-            <td>Java</td>
-            <td>Markdown</td>
-            <td>TypeScript</td>
-            <td>C/C++</td>
-          </tr>
-          <tr>
-            <td>JSON</td>
-            <td>Powershell</td>
-            <td>HTML/CSS</td>
-            <td>C#</td>
-            <td>PHP</td>
-            <td>YAML</td>
-          </tr>
-        </table>
+        <div class="firstline">
+        <div class="col1 code"><p><img src="images/javascript.svg">JavaScript</p></div>
+        <div class="col2 code"><p><img src="images/python.svg">Python</p></div>
+        <div class="col3 code"><p><img src="images/java.svg">Java</p></div>
+        <div class="col4 code"><p><img src="images/markdown.svg">Markdown</p></div>
+        <div class="col5 code"><p><img src="images/typescript.svg">TypeScript</p></div>
+        <div class="col6 code"><p><img src="images/cpp.svg">C/C++</p></div>
+        </div>
+        <div class="secondline">
+        <div class="col7 code"><p><img src="images/json.svg">JSON</p></div>
+        <div class="col8 code"><p><img src="images/powershell.svg">Powershell</p></div>
+        <div class="col9 code"><p><img src="images/html.svg">HTML/CSS</p></div>
+        <div class="col10 code"><p><img src="images/csharp.svg">C#</p></div>
+        <div class="col11 code"><p><img src="images/php.svg">PHP</p></div>
+        <div class="col12 code"><p><img src="images/yaml.svg">YAML</p></div>
+    </div>
+       
         <div class="more-get">
           <a href="and many more" class="more">and many more...</a>
           <button class="get">Get started Now</button>
         </div>
       </div>
     </section>
-    <!-- <div class="downoad">
-    <div class="windows">
-      <div class="windowsimg">
-        <img src="images/windows-logo.png" />
+    <div class="container6">
+      <div class="windows down">
+        <div class="windowsimg"></div>
+        <div class="windowsbutton">
+          <button class="button3">
+            <strong>windows</strong> <small>Windows 7,8,10,11</small>
+          </button>
+        </div>
+        <div class="windowstable">
+          <table>
+            <tbody>
+              <tr>
+                <td>User Installer</td>
+                <td>64 bit</td>
+                <td>32 bit</td>
+                <td>ARM</td>
+              </tr>
+              <tr>
+                <td>System Installer</td>
+                <td>64 bit</td>
+                <td>32 bit</td>
+                <td>ARM</td>
+              </tr>
+              <tr>
+                <td>.zip</td>
+                <td>64 bit</td>
+                <td>32 bit</td>
+                <td>ARM</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-      <div class="windowsbutton">
-        <button>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download"
-            viewBox="0 0 16 16">
-            <path
-              d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
-            <path
-              d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
-          </svg><strong>windows</strong> Windows 7,8,10,11
-        </button>
+      <div class="deb down">
+        <div class="debimag"></div>
+
+        <div class="debbutton">
+          <button class="button3">
+            <strong>.deb</strong><small>Debian, Ubuntu</small>
+          </button>
+          <button class="button3">
+            <strong>.rpm</strong><small> Hat, Fedora, SUSE</small>
+          </button>
+        </div>
+        <div class="debtable">
+          <table>
+            <tbody>
+              <tr>
+                <td>.deb</td>
+                <td>64 bit</td>
+                <td>ARM</td>
+                <td>ARM 64</td>
+              </tr>
+              <tr>
+                <td>.rpm</td>
+                <td>64 bit</td>
+                <td>ARM</td>
+                <td>ARM 64</td>
+              </tr>
+              <tr>
+                <td>.tar.gz</td>
+                <td>64 bit</td>
+                <td>ARM</td>
+                <td>ARM 64</td>
+              </tr>
+              <tr>
+                <td></td>
+
+                <td>Snap Store</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="apple down">
+        <div class="appleimg"></div>
+        <div class="applebutton">
+          <button class="button3">
+            <strong>Mac</strong><small>macOS 10.11+</small>
+          </button>
+        </div>
+        <div class="appletable">
+          <table>
+            <tbody>
+              <tr>
+                <td>.zip</td>
+                <td>Universal</td>
+                <td>Intel Chip</td>
+                <td>Apple Silicon</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
-    <div class="deb">
-      <div class="debimag">
-        <img src="images/linux-logo.png" />
+    <div id="conteiner7">
+      <div class="container7">
+        <div class="text-wrap1">
+          <h2>Want new features sooner?</h2>
+          <p>Get the <a href="">Insiders build</a> instead.</p>
+          <div class="text-wrap2">
+            <h3>LICENSE AND PRIVACY TERMS</h3>
+            <p class="par">
+              By downloading and using Visual Studio Code, you agree to the
+              <a href="">license terms </a>and<a href=""> privacy statement</a>. VS Code automatically sends
+              telemetry data and crash dumps to help us improve the product. If
+              you would prefer not to have this data sent please go see <a href="">How to
+              Disable Crash Reporting</a> to learn how to disable it.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="apple">
-      <div class="appleimg">
-        <img src="images/apple-logo.jpg" />
+    <footer class="footer contaner">
+      <div class="left-col">
+        <ul>
+          <li>
+            <span>Hallo from Seattle.</span>
+          </li>
+          <li><a href="follow"class="follow"> Follow @code</a></li>
+        </ul>
       </div>
-    </div>
-  </div> -->
+      <div class="right-col">
+        
+      <ul>
+        <li>Support</li>
+        <li>Privacy</li>
+        <li>Terms of Use</li>
+        <li>License</li>
+      </ul>
+      <div class="copyright">
+        <img src="images/microsoft-logo.png"height="20" />
+        <span class="Microsoft">© 2022 Microsoft</span></div>
+      </div>
+    </footer>
   </body>
 </html>
