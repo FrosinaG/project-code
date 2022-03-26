@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+.title {
+  padding: 10px;
+  font-size: 20px;
+}
+ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: #ccc;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+  background-color: rgb(53, 47, 47);
+  color: white;
+  margin: 0px;
+  padding: 10px;
+  z-index: 0;
+ 
+}
+/* .fix {
+  position:fixed;
+  right: 0;
+  left: 0;
+} */
+.hero {
+  background-color: rgb(53, 47, 47);
+  
+}
+.first {
+  background-color: #2c2c32;
+  color: #ccc;
+  display: block;
+
+  
+  
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 100%;
+}
+.homeimg {
+  width: 100%;
+}
+.container {
+  display: flex;
+  gap: 30px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+  position: relative;
+}
+h1 {
+  font-size: 45px;
+  font-weight: normal;
+}
+.left {
+  text-align: center;
+  color: white;
+}
+.first p {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #0098ff;
+}
+
+.bluebutton{
+  width: 250px;
+  margin: 5px;
+  padding: 10px 0;
+  height: 100%;
+}
+.bluebutton b {
+  font-size: 20px;
+}
+
+.downoad-button {
+  height: 50px;
+  font-size: 18px;
+  padding: 10px;
+  vertical-align: top;
+}
+.dow {
+  height: 100%;
+  padding: 15px;
+}
+.search {
+  background-color: #2c2c32;
+  border: none;
+  color: #ccc;
+  height: 50px;
+  border-radius: 0;
+}
+button {
+  background-color: #0066b8;
+  color: white;
+  border: none;
+}
+.grybutton {
+  border-radius: 8px;
+  width: 250px;
+  height: 30px;
+  background: #25252b;
+  margin: 3px;
+}
+.wrap-span {
+  display: inline-block;
+}
+.container3 {
+  display: flex;
+  width: 90%;
+  position: relative;
+  margin: auto;
+}
+#container3,
+#container5,
+#conteiner7,
+.steam {
+  background-color: #f5f5f5;
+}
+.img-con {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  padding: 10px;
+  margin: 40px 15px;
+  color: #2c2c32;
+}
+.mark {
+  display: flex;
+  width: 90%;
+  position: relative;
+  margin: auto;
+}
+.imgmark {
+  width: 28%;
+  padding: 20px;
+}
+.textwrap {
+  width: 55%;
+  padding: 70px 30px;
+}
+.photo {
+  height: 270px;
+  padding: 20px;
+}
+h2,
+h4 {
+  padding: 10px;
+  color: #2c2c32;
+  font-weight: normal;
+  font-size: 22px;
+}
+.container2 {
+  width: 85%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.box {
+  width: 20%;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.container5 {
+  max-width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+  
+}
+.firstline, .secondline{
+  display: flex;
+  padding: 15px;
+  font-size: 20px;
+  width: 100%;
+}
+.code{
+  padding:0 15px;
+}
+h2 {
+  text-align: center;
+  font-weight: normal;
+}
+.get {
+  border: none;
+  padding: 20px 30px;
+  text-align: center bold white;
+  font-size: 20px;
+  display: inline-block;
+}
+.more,
+.get {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  
+}
+.box:hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+.container6 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+  padding: 20px 10px;
+}
+
+.down {
+  width: 33%;
+  max-height: 400px;
+}
+
+.appleimg,
+.debimag,
+.windowsimg {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+table {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+table td {
+  background-color: #0066b8;
+  color: #ccc;
+  padding: 0;
+  margin: 0;
+  border-radius: 2px;
+  vertical-align: top;
+}
+table :first-child {
+  background: none;
+  color: #25252b;
+}
+
+.windowsimg {
+  background-image: url("../images/windows-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.debimag {
+  background-image: url("../images/linux-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.appleimg {
+  background-image: url("../images/apple-logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.windowsbutton,
+.debbutton,
+.applebutton {
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+}
+.button3 {
+  padding: 20px;
+}
+h3{
+  font-size: 15px;
+  color:grey;
+}
+small {
+  display: block;
+}
+.container7 {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  color: #25252b;
+  line-height: 3;
+}
+
+.footer {
+  background-color: #25252b;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.Microsoft {
+  display: block;
+  color: #ccc;
+}
+.follow {
+  color: #ccc;
+}
+.right-col {
+  display: flex;
+}
+.copyright {
+  padding-top: 20px;
+}
+/* @media screen and (max-width: 768px) {
+  .navbar ul li {
+    display: none;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .container2,.container3{
+    display: block;
+  }
+  
+} */
